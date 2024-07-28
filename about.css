@@ -1,0 +1,30 @@
+.benefit-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 576px) {
+    .benefit-card {
+        margin-bottom: 20px;
+    }
+
+    .benefit-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .benefit-card h5 {
+        font-size: 1rem;
+    }
+}
